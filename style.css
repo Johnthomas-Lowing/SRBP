@@ -1,0 +1,200 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #000000;
+  color: #d0d0d0;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.panel {
+  background: #111111;
+  padding: 14px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.left, .middle, .right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Left Column */
+.left .slot {
+  background: #1a1a1a;
+  border: 1px solid #333333;
+  border-radius: 8px;
+  padding: 14px;
+  text-align: center;
+  cursor: pointer;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left .slot.active {
+  outline: 2px solid #888888;
+}
+
+.left .slot .item {
+  margin-top: 6px;
+  font-size: 14px;
+  color: #c0c0c0; /* default text color */
+}
+
+/* Rarity colors for left column */
+.left .slot .item.rarity-Mythic { color: #f59e0b; }
+.left .slot .item.rarity-Legendary { color: #c084fc; }
+
+/* Middle Column */
+.middle {
+  overflow-y: auto;
+}
+
+.middle #slot-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.middle #slot-buttons button {
+  flex: 1;
+  margin: 0 2px;
+  padding: 6px 0;
+  border: none;
+  border-radius: 6px;
+  background: #1a1a1a;
+  color: #d0d0d0;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.middle #slot-buttons button.active {
+  background: #333333;
+}
+
+.middle #search-bar {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.middle #search-bar input {
+  flex: 1;
+  padding: 6px 8px;
+  border-radius: 6px;
+  border: 1px solid #333333;
+  background: #1a1a1a;
+  color: #d0d0d0;
+}
+
+.middle #items {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.item-row {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #333333;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.item-row:hover {
+  background: #222222;
+}
+
+.item-title {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* Type/element line */
+.item-details > div:first-child {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+/* Attribute line grid */
+.item-details > div:nth-child(2) {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 4px;
+}
+
+/* Effects styling */
+.item-details > div:nth-child(n+3) {
+  margin-top: 4px;
+  font-size: 12px;
+  color: #999999;
+}
+
+/* Rarity colors for middle column items */
+.middle .item-title.rarity-Mythic { color: #f59e0b; }
+.middle .item-title.rarity-Legendary { color: #c084fc; }
+
+/* Right Column */
+.right h3 {
+  margin-top: 0;
+}
+
+.right .stat {
+  background: #1a1a1a;
+  padding: 8px;
+  border-radius: 6px;
+  margin-bottom: 6px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.stat-btn {
+  width: 28px;
+  height: 28px;
+  border: none;
+  border-radius: 4px;
+  background: #1a1a1a;
+  color: #d0d0d0;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stat-btn:hover {
+  background: #333333;
+}
+
+.stat-label {
+  display: inline-block;
+  min-width: 80px;
+  text-align: center;
+}
+
+/* Buttons */
+#clear, #reset-alloc {
+  padding: 6px;
+  border: none;
+  border-radius: 6px;
+  background: #1a1a1a;
+  color: #d0d0d0;
+  cursor: pointer;
+}
+
+#clear:hover, #reset-alloc:hover {
+  background: #333333;
+}
