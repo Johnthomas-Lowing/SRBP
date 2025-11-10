@@ -8,36 +8,45 @@
 </head>
 <body>
 
-<div class="left panel">
-  <div class="slot" data-slot="Main Hand"><div>Weapon</div><div class="item empty">Empty</div></div>
-  <div class="slot" data-slot="Off Hand"><div>Off Hand</div><div class="item empty">Empty</div></div>
-  <div class="slot" data-slot="Chest"><div>Chest</div><div class="item empty">Empty</div></div>
-  <div class="slot" data-slot="Head"><div>Head</div><div class="item empty">Empty</div></div>
-  <div class="slot" data-slot="Ring"><div>Ring</div><div class="item empty">Empty</div></div>
-  <div class="slot" data-slot="Amulet"><div>Amulet</div><div class="item empty">Empty</div></div>
+<div class="panel left-panel">
+  <div class="gear-container">
+    <div class="gear-slots">
+      <div class="slot" data-slot="Main Hand"><div class="slot-label">Main Hand</div><div class="item-label empty">Empty</div></div>
+      <div class="slot" data-slot="Off Hand"><div class="slot-label">Off Hand</div><div class="item-label empty">Empty</div></div>
+      <div class="slot" data-slot="Chest"><div class="slot-label">Chest</div><div class="item-label empty">Empty</div></div>
+      <div class="slot" data-slot="Head"><div class="slot-label">Head</div><div class="item-label empty">Empty</div></div>
+      <div class="slot" data-slot="Ring"><div class="slot-label">Ring</div><div class="item-label empty">Empty</div></div>
+      <div class="slot" data-slot="Amulet"><div class="slot-label">Amulet</div><div class="item-label empty">Empty</div></div>
+    </div>
 
-  <button id="clear" style="margin-top:10px; padding:6px; border:none; border-radius:6px; background:#041226; color:inherit; cursor:pointer;">
-    Clear All
-  </button>
+    <div class="fortune-slots">
+      <div class="slot" data-slot="Fortune 1"><div class="slot-label">Fortune 1</div><div class="item-label empty">Empty</div></div>
+      <div class="slot" data-slot="Fortune 2"><div class="slot-label">Fortune 2</div><div class="item-label empty">Empty</div></div>
+      <div class="slot" data-slot="Fortune 3"><div class="slot-label">Fortune 3</div><div class="item-label empty">Empty</div></div>
+      <div class="slot" data-slot="Fortune 4"><div class="slot-label">Fortune 4</div><div class="item-label empty">Empty</div></div>
+    </div>
+  </div>
+
+  <button id="clear" class="btn full-width">Clear All</button>
 </div>
 
-
-<div class="middle panel">
+<div class="panel middle-panel">
   <div class="top-half">
-    <div id="search-bar">
-      <input id="search" placeholder="Search items...">
+    <div class="slot-controls">
+      <div id="search-bar">
+        <input id="search" placeholder="Search items...">
+      </div>
+      <div id="slot-buttons">
+        <button data-slot="Main Hand">[W]</button>
+        <button data-slot="Off Hand">[O]</button>
+        <button data-slot="Chest">[C]</button>
+        <button data-slot="Head">[H]</button>
+        <button data-slot="Ring">[R]</button>
+        <button data-slot="Amulet">[A]</button>
+      </div>
+      <br>
     </div>
-    <div id="slot-buttons">
-      <button data-slot="Main Hand">[W]</button>
-      <button data-slot="Off Hand">[O]</button>
-      <button data-slot="Chest">[C]</button>
-      <button data-slot="Head">[H]</button>
-      <button data-slot="Ring">[R]</button>
-      <button data-slot="Amulet">[A]</button>
-    </div>
-
-    <!-- Items container goes inside top-half -->
-    <div id="items" style="overflow-y:auto; margin-top:8px;"></div>
+    <div id="items"></div>
   </div>
 
   <div class="bottom-half">
@@ -53,22 +62,15 @@
   </div>
 </div>
 
-
-<div class="right panel">
+<div class="panel right-panel">
   <h3 id="attr-header">Attributes ~ 155 Remaining</h3>
-  <div id="Might" class="stat">Might: 0</div>
-  <div id="Dexterity" class="stat">Dexterity: 0</div>
-  <div id="Vitality" class="stat">Vitality: 0</div>
-  <div id="Intelligence" class="stat">Intelligence: 0</div>
-  <div id="Reflex" class="stat">Reflex: 0</div>
-
-  <div style="margin-top:12px;">
-    <button id="reset-alloc" style="padding:6px; border:none; border-radius:6px; background:#041226; color:inherit; cursor:pointer; width:100%;">Reset Allocatable Points</button>
-  </div>
+  <div id="Might" class="stat"></div>
+  <div id="Dexterity" class="stat"></div>
+  <div id="Vitality" class="stat"></div>
+  <div id="Intelligence" class="stat"></div>
+  <div id="Reflex" class="stat"></div>
+  <button id="reset-alloc" class="btn full-width">Reset Allocatable Points</button>
 </div>
-
-
-
 
 <script src="db.js"></script>
 <script src="render.js"></script>
