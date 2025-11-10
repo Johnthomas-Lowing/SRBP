@@ -198,3 +198,58 @@ body {
 #clear:hover, #reset-alloc:hover {
   background: #333333;
 }
+
+/* -------------------------
+   Responsive: stack panels on small screens
+   ------------------------- */
+@media (max-width: 768px) {
+  body {
+    flex-direction: column;
+    align-items: center;        /* center panels horizontally */
+    justify-content: flex-start;
+    gap: 12px;
+    padding: 12px;
+    height: auto;               /* allow natural height */
+    width: 100%;                /* prevent horizontal scrolling */
+    overflow-x: hidden;         /* remove side scroll */
+    box-sizing: border-box;
+  }
+
+  .panel {
+    width: 100%;
+    max-width: 600px;           /* optional: limits width on large phones */
+    height: auto;
+    padding: 12px;
+  }
+
+  .left, .middle, .right {
+    flex: none;
+    width: 100%;
+  }
+
+  .middle {
+    max-height: none;
+    overflow: visible;
+  }
+
+  .middle #slot-buttons {
+    flex-wrap: wrap;
+    gap: 6px;
+    justify-content: center;
+  }
+
+  .middle #slot-buttons button {
+    flex: 0 1 30%;
+    margin: 0;
+    min-width: 86px;
+  }
+}
+
+
+  /* reduce large gaps on very small screens */
+  @media (max-width: 420px) {
+    body { gap: 8px; padding: 10px; }
+    .panel { padding: 10px; border-radius: 10px; }
+    .middle #slot-buttons button { min-width: 70px; flex-basis: 45%; }
+  }
+}
