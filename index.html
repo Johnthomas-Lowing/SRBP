@@ -23,19 +23,36 @@
 
 
 <div class="middle panel">
-  <div id="search-bar">
-    <input id="search" placeholder="Search items...">
+  <div class="top-half">
+    <div id="search-bar">
+      <input id="search" placeholder="Search items...">
+    </div>
+    <div id="slot-buttons">
+      <button data-slot="Main Hand">[W]</button>
+      <button data-slot="Off Hand">[O]</button>
+      <button data-slot="Chest">[C]</button>
+      <button data-slot="Head">[H]</button>
+      <button data-slot="Ring">[R]</button>
+      <button data-slot="Amulet">[A]</button>
+    </div>
+
+    <!-- Items container goes inside top-half -->
+    <div id="items" style="overflow-y:auto; margin-top:8px;"></div>
   </div>
-  <div id="slot-buttons">
-    <button data-slot="Main Hand">[W]</button>
-    <button data-slot="Off Hand">[O]</button>
-    <button data-slot="Chest">[C]</button>
-    <button data-slot="Head">[H]</button>
-    <button data-slot="Ring">[R]</button>
-    <button data-slot="Amulet">[A]</button>
+
+  <div class="bottom-half">
+    <h4>Set Farming Info</h4>
+    <div class="list-section">
+      <h5>Bosses to Kill</h5>
+      <ul id="boss-list"></ul>
+    </div>
+    <div class="list-section">
+      <h5>Farm Locations</h5>
+      <ul id="zone-list"></ul>
+    </div>
   </div>
-  <div id="items"></div>
 </div>
+
 
 <div class="right panel">
   <h3 id="attr-header">Attributes ~ 155 Remaining</h3>

@@ -26,6 +26,63 @@ document.getElementById('clear').onclick = () => {
   renderItems(); // refresh item list if a slot is selected
 };
 
+function renderFarmingInfo() {
+  const bossList = document.getElementById('boss-list');
+  const zoneList = document.getElementById('zone-list');
+  if (!bossList || !zoneList) return;
+
+  // Clear previous lists
+  bossList.innerHTML = '';
+  zoneList.innerHTML = '';
+
+  // Maps: normalized key -> { name: originalName, slots: Set of slots }
+  const bossMap = new Map();
+  const zoneMap = new Map();
+
+  Object.entries(equips).forEach(([slot, it]) => {
+    (it.bosses || []).forEach(b => {
+      const key = b.trim().toLowerCase();
+      if (!bossMap.has(key)) bossMap.set(key, { name: b.trim(), slots: new Set() });
+      bossMap.get(key).slots.add(slot);
+    });
+    (it.zones || []).forEach(z => {
+      const key = z.trim().toLowerCase();
+      if (!zoneMap.has(key)) zoneMap.set(key, { name: z.trim(), slots: new Set() });
+      zoneMap.get(key).slots.add(slot);
+    });
+  });
+
+  // Add bosses with slots
+  if (bossMap.size) {
+    [...bossMap.values()]
+      .sort((a, b) => a.name.localeCompare(b.name))
+      .forEach(entry => {
+        const li = document.createElement('li');
+        li.textContent = `${entry.name} - ${[...entry.slots].sort().join(' / ')}`;
+        bossList.appendChild(li);
+      });
+  } else {
+    bossList.innerHTML = '<li style="color:#666;">None</li>';
+  }
+
+  // Add zones with slots
+  if (zoneMap.size) {
+    [...zoneMap.values()]
+      .sort((a, b) => a.name.localeCompare(b.name))
+      .forEach(entry => {
+        const li = document.createElement('li');
+        li.textContent = `${entry.name} - ${[...entry.slots].sort().join(' / ')}`;
+        zoneList.appendChild(li);
+      });
+  } else {
+    zoneList.innerHTML = '<li style="color:#666;">None</li>';
+  }
+}
+
+
+
+
+
 function selectSlot(slot) {
   currentSlot = slot;
   slots.forEach(s => s.classList.toggle('active', s.dataset.slot === slot));
@@ -47,6 +104,7 @@ function renderSlots() {
       label.className = 'item empty'; // reset classes
     }
   });
+  renderFarmingInfo();
 }
 
 function parseType(typeStr) {
@@ -244,6 +302,7 @@ function renderStats() {
       renderStats();
     };
   });
+  renderFarmingInfo();
 }
 
 // Reset button

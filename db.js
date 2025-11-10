@@ -94,7 +94,7 @@ const items = [
     attributes: { Might: "{2,11}", Reflex: "{2,11}" },
     effects: ["10% chance to cast Hurting on striking."],
     bosses: ["Admiral Blackbeard", "The Mad Mage"],
-    zones: ["WaterTempleRuins Day", "WaterTempleRuins Night"]
+    zones: ["Water Temple Ruins Day", "Water Temple Ruins Night"]
   },
   {
     name: "Big Game Hunter",
@@ -426,8 +426,8 @@ const items = [
     zones: [
       "Emerald Jungle Day",
       "Emerald Jungle Night",
-      "WaterTempleRuins Day",
-      "WaterTempleRuins Night"
+      "Water Temple Ruins Day",
+      "Water Temple Ruins Night"
     ]
   },
   {
@@ -440,7 +440,7 @@ const items = [
     attributes: { Might: "{2,11}", Dexterity: "{2,11}" },
     effects: ["Grants the skill {SKL=Spectral Mark}."],
     bosses: ["Admiral Blackbeard"],
-    zones: ["WaterTempleRuins Day", "WaterTempleRuins Night"]
+    zones: ["Water Temple Ruins Day", "Water Temple Ruins Night"]
   },
   {
     name: "Gobfather's Smasher",
@@ -479,8 +479,8 @@ const items = [
     zones: [
       "Frostwrought Mountain Day",
       "Frostwrought Mountain Night",
-      "WaterTempleRuins Day",
-      "WaterTempleRuins Night"
+      "Water Temple Ruins Day",
+      "Water Temple Ruins Night"
     ]
   },
   {
@@ -646,7 +646,7 @@ const items = [
       "Basic attacks have a 25% chance to proc an additional attack once per turn."
     ],
     bosses: ["Admiral Blackbeard"],
-    zones: ["WaterTempleRuins Day", "WaterTempleRuins Night"]
+    zones: ["Water Temple Ruins Day", "Water Temple Ruins Night"]
   },
   {
     name: "Laying on Hands",
@@ -719,8 +719,8 @@ const items = [
     effects: ["Grants the skill {SKL=Petrify}."],
     bosses: ["Anthulk", "The Minotaur", "Medusa"],
     zones: [
-      "WaterTempleRuins Day",
-      "WaterTempleRuins Night",
+      "Water Temple Ruins Day",
+      "Water Temple Ruins Night",
       "Forgotten Mines Day",
       "Forgotten Mines Night",
       "Emerald Jungle Day",
@@ -818,8 +818,8 @@ const items = [
     zones: [
       "Wyrmrest Desert Day",
       "Wyrmrest Desert Night",
-      "WaterTempleRuins Day",
-      "WaterTempleRuins Night",
+      "Water Temple Ruins Day",
+      "Water Temple Ruins Night",
       "Emerald Jungle Day",
       "Emerald Jungle Night"
     ]
@@ -836,7 +836,7 @@ const items = [
       "10% chance to cast Reaper's Scythe on striking."
     ],
     bosses: ["Admiral Blackbeard"],
-    zones: ["WaterTempleRuins Day", "WaterTempleRuins Night"]
+    zones: ["Water Temple Ruins Day", "Water Temple Ruins Night"]
   },
   {
     name: "Phoenix Claymore",
@@ -865,7 +865,7 @@ const items = [
     attributes: {},
     effects: [],
     bosses: ["Admiral Blackbeard"],
-    zones: ["WaterTempleRuins Day", "WaterTempleRuins Night"]
+    zones: ["Water Temple Ruins Day", "Water Temple Ruins Night"]
   },
   {
     name: "Rabbit's Spear",
@@ -972,7 +972,7 @@ const items = [
       "10% chance to shoot a Ghostly Cannon Ball on striking."
     ],
     bosses: ["Admiral Blackbeard"],
-    zones: ["WaterTempleRuins Day", "WaterTempleRuins Night"]
+    zones: ["Water Temple Ruins Day", "Water Temple Ruins Night"]
   },
   {
     name: "Sun Staff",
@@ -1014,8 +1014,8 @@ const items = [
     zones: [
       "Emerald Jungle Day",
       "Emerald Jungle Night",
-      "WaterTempleRuins Day",
-      "WaterTempleRuins Night"
+      "Water Temple Ruins Day",
+      "Water Temple Ruins Night"
     ]
   },
   {
@@ -1034,8 +1034,8 @@ const items = [
     zones: [
       "Emerald Jungle Day",
       "Emerald Jungle Night",
-      "WaterTempleRuins Day",
-      "WaterTempleRuins Night"
+      "Water Temple Ruins Day",
+      "Water Temple Ruins Night"
     ]
   },
   {
@@ -1052,8 +1052,8 @@ const items = [
     ],
     bosses: ["Tlaloc the Storm", "Green Dragon"],
     zones: [
-      "WaterTempleRuins Day",
-      "WaterTempleRuins Night",
+      "Water Temple Ruins Day",
+      "Water Temple Ruins Night",
       "Freewind Forest Day",
       "Emerald Jungle Day",
       "Freewind Forest Night",
@@ -1133,8 +1133,8 @@ const items = [
     zones: [
       "Frostwrought Mountain Day",
       "Frostwrought Mountain Night",
-      "WaterTempleRuins Day",
-      "WaterTempleRuins Night"
+      "Water Temple Ruins Day",
+      "Water Temple Ruins Night"
     ]
   },
   {
@@ -1162,7 +1162,7 @@ const items = [
     attributes: { Might: "{2, 11}", Vitality: "{2, 11}" },
     effects: ["Damage Reduction 10%", "Resist Fire 15%"],
     bosses: ["Dwarven Warmachine"],
-    zones: ["DwarvenHalls Day", "DwarvenHalls Night"]
+    zones: ["Dwarven Halls Day", "Dwarven Halls Night"]
   },
   {
     name: "Arcane Veil",
@@ -1176,8 +1176,8 @@ const items = [
     bosses: ["Unchained Efreet", "The Ember King"],
     zones: [
       "Emberlands Day",
-      "WyrmrestDesert Day",
-      "WyrmrestDesert Night",
+      "Wyrmrest Desert Day",
+      "Wyrmrest Desert Night",
       "Emberlands Night"
     ]
   },
@@ -1195,7 +1195,7 @@ const items = [
       "Gain Added Return Damage Physical equal to 2% of your Armor."
     ],
     bosses: ["Dwarven Warmachine"],
-    zones: ["DwarvenHalls Day", "DwarvenHalls Night"]
+    zones: ["Dwarven Halls Day", "Dwarven Halls Night"]
   },
   {
     name: "Bone Jester Mask",
@@ -1208,10 +1208,10 @@ const items = [
     effects: ["Dodge Counter Damage {10,50}%"],
     bosses: ["The Jester"],
     zones: [
-      "CastleGloom Day",
-      "SunkenSwamplands Day",
-      "CastleGloom Night",
-      "SunkenSwamplands Night"
+      "Castle Gloom Day",
+      "Sunken Swamplands Day",
+      "Castle Gloom Night",
+      "Sunken Swamplands Night"
     ]
   },
   {
@@ -1224,7 +1224,7 @@ const items = [
     attributes: { Intelligence: "{10, 76}" },
     effects: [],
     bosses: ["Olgoi, Devourer of Treasure"],
-    zones: ["DwarvenHalls Day", "DwarvenHalls Night"]
+    zones: ["Dwarven Halls Day", "Dwarven Halls Night"]
   },
   {
     name: "Dead One's Mind",
@@ -1241,7 +1241,7 @@ const items = [
       "Summon Level Bonus 3"
     ],
     bosses: ["The Countess"],
-    zones: ["CastleGloom Day", "CastleGloom Night"]
+    zones: ["Castle Gloom Day", "Castle Gloom Night"]
   },
   {
     name: "Discipline",
@@ -1253,7 +1253,7 @@ const items = [
     attributes: { Vitality: "{10, 76}" },
     effects: [],
     bosses: ["Ronin", "The Grandmaster"],
-    zones: ["FrostwroughtMountain Night", "FrostwroughtMountain Day"]
+    zones: ["Frostwrought Mountain Night", "Frostwrought Mountain Day"]
   },
   {
     name: "Ember King's Will",
@@ -1282,7 +1282,7 @@ const items = [
     attributes: { Reflex: "{10, 76}" },
     effects: [],
     bosses: ["The Countess"],
-    zones: ["CastleGloom Day", "CastleGloom Night"]
+    zones: ["Castle Gloom Day", "Castle Gloom Night"]
   },
   {
     name: "Golden Valkyrie Helm",
@@ -1301,10 +1301,10 @@ const items = [
     ],
     bosses: ["Valkyrie Commander"],
     zones: [
-      "FrostwroughtMountain Night",
-      "FrostwroughtMountain Day",
-      "WaterTempleRuins Day",
-      "WaterTempleRuins Night"
+      "Frostwrought Mountain Night",
+      "Frostwrought Mountain Day",
+      "Water Temple Ruins Day",
+      "Water Temple Ruins Night"
     ]
   },
   {
@@ -1325,13 +1325,13 @@ const items = [
     ],
     bosses: ["Black Dragon", "Blue Dragon", "Green Dragon", "Red Dragon"],
     zones: [
-      "FrostwroughtMountain Night",
-      "CastleGloom Night",
-      "FreewindForest Day",
+      "Frostwrought Mountain Night",
+      "Castle Gloom Night",
+      "Freewind Forest Day",
       "Emberlands Day",
-      "FrostwroughtMountain Day",
-      "FreewindForest Night",
-      "CastleGloom Day",
+      "Frostwrought Mountain Day",
+      "Freewind Forest Night",
+      "Castle Gloom Day",
       "Emberlands Night"
     ]
   },
@@ -1345,7 +1345,7 @@ const items = [
     attributes: { Dexterity: "{7, 54}", Reflex: "{3, 22}" },
     effects: ["20% chance to cast Stealth on turn start."],
     bosses: ["Samara the Vampire", "The Duke"],
-    zones: ["CastleGloom Day", "CastleGloom Night"]
+    zones: ["Castle Gloom Day", "Castle Gloom Night"]
   },
   {
     name: "Ninja Hood",
@@ -1357,7 +1357,7 @@ const items = [
     attributes: { Dexterity: "{10, 76}" },
     effects: [],
     bosses: ["Ronin"],
-    zones: ["FrostwroughtMountain Night", "FrostwroughtMountain Day"]
+    zones: ["Frostwrought Mountain Night", "Frostwrought Mountain Day"]
   },
   {
     name: "Rage Casque",
@@ -1397,13 +1397,13 @@ const items = [
     ],
     bosses: ["Black Dragon", "Blue Dragon", "Green Dragon", "Red Dragon"],
     zones: [
-      "FrostwroughtMountain Night",
-      "CastleGloom Night",
-      "FreewindForest Day",
+      "Frostwrought Mountain Night",
+      "Castle Gloom Night",
+      "Freewind Forest Day",
       "Emberlands Day",
-      "FrostwroughtMountain Day",
-      "FreewindForest Night",
-      "CastleGloom Day",
+      "Frostwrought Mountain Day",
+      "Freewind Forest Night",
+      "Castle Gloom Day",
       "Emberlands Night"
     ]
   },
@@ -1417,7 +1417,7 @@ const items = [
     attributes: { Might: "{3, 17}", Vitality: "{3, 17}" },
     effects: ["Physical Damage {6,30}%", "% Life Steal 3"],
     bosses: ["The Baron"],
-    zones: ["CastleGloom Day", "CastleGloom Night"]
+    zones: ["Castle Gloom Day", "Castle Gloom Night"]
   },
   {
     name: "Wolfshead Hood",
@@ -1429,7 +1429,7 @@ const items = [
     attributes: { Might: "2–11", Vitality: "2–11", Reflex: "2–11" },
     effects: ["Physical Damage 1–28", "Resist Cold 15%"],
     bosses: ["Hod", "Lagertha", "Ragnar"],
-    zones: ["FrostwroughtMountain Night", "FrostwroughtMountain Day"]
+    zones: ["Frostwrought Mountain Night", "Frostwrought Mountain Day"]
   },
   //
   // Shields
@@ -1447,7 +1447,7 @@ const items = [
       "25% Chance when hit to cast Level [level value] {SKL=Ankheg Spines}."
     ],
     "bosses": ["Anthulk"],
-    "zones": ["ForgottenMines Night", "ForgottenMines Day"]
+    "zones": ["Forgotten Mines Night", "Forgotten Mines Day"]
   },
   {
     "name": "Crimson Guard",
@@ -1463,7 +1463,7 @@ const items = [
       "Gain Added Return Damage Physical equal to 2% of your Armor."
     ],
     "bosses": ["The Baron"],
-    "zones": ["CastleGloom Day", "CastleGloom Night"]
+    "zones": ["Castle Gloom Day", "Castle Gloom Night"]
   },
   {
     "name": "Dead One's Head",
@@ -1481,10 +1481,10 @@ const items = [
     ],
     "bosses": ["The Dead One", "The Bishop", "The Butcher"],
     "zones": [
-      "CastleGloom Day",
-      "SunkenSwamplands Day",
-      "CastleGloom Night",
-      "SunkenSwamplands Night"
+      "Castle Gloom Day",
+      "Sunken Swamplands Day",
+      "Castle Gloom Night",
+      "Sunken Swamplands Night"
     ]
   },
   {
@@ -1522,7 +1522,7 @@ const items = [
       "Guardian bold, in steel and gold, against despair, a shield does hold."
     ],
     "bosses": ["Mountain King Ironheart"],
-    "zones": ["DwarvenHalls Day", "DwarvenHalls Night"]
+    "zones": ["Dwarven Halls Day", "Dwarven Halls Night"]
   },
   {
     "name": "Gilded Kite Shield",
@@ -1538,7 +1538,7 @@ const items = [
       "10% chance upon getting hit to cast Level [level value] {SKL=Shield of Light}."
     ],
     "bosses": ["Olgoi, Devourer of Treasure"],
-    "zones": ["DwarvenHalls Day", "DwarvenHalls Night"]
+    "zones": ["Dwarven Halls Day", "Dwarven Halls Night"]
   },
   {
     "name": "Golden Aspis",
@@ -1574,7 +1574,7 @@ const items = [
     "attributes": { "Might": "{5, 33}", "Vitality": "{5, 33}" },
     "effects": ["Damage Reduction 10%", "Grants the passive skill {SKL=Indestructible}"],
     "bosses": ["The Witch"],
-    "zones": ["SunkenSwamplands Day", "SunkenSwamplands Night"]
+    "zones": ["Sunken Swamplands Day", "Sunken Swamplands Night"]
   },
   {
     "name": "Ironbark Shield",
@@ -1586,7 +1586,7 @@ const items = [
     "attributes": { "Vitality": "{3, 20}" },
     "effects": ["Return Damage Physical {3, 52}", "Damage Reduction 8%"],
     "bosses": ["Ursa", "Forest Giant"],
-    "zones": ["FreewindForest Day", "FreewindForest Night"]
+    "zones": ["Freewind Forest Day", "Freewind Forest Night"]
   },
   {
     "name": "Ivory Aegis",
@@ -1603,10 +1603,10 @@ const items = [
     ],
     "bosses": ["The Bishop"],
     "zones": [
-      "CastleGloom Day",
-      "SunkenSwamplands Day",
-      "CastleGloom Night",
-      "SunkenSwamplands Night"
+      "Castle Gloom Day",
+      "Sunken Swamplands Day",
+      "Castle Gloom Night",
+      "Sunken Swamplands Night"
     ]
   },
   {
@@ -1635,7 +1635,7 @@ const items = [
       "Resist Physical 10%"
     ],
     "bosses": ["Hod", "Lagertha", "Ragnar"],
-    "zones": ["FrostwroughtMountain Night", "FrostwroughtMountain Day"]
+    "zones": ["Frostwrought Mountain Night", "Frostwrought Mountain Day"]
   },
   {
     "name": "Silver Kite Shield",
@@ -1662,7 +1662,7 @@ const items = [
     "attributes": { "Vitality": "{3, 20}" },
     "effects": ["Resist Fire 15%", "Attackers gain 4 stacks of poison."],
     "bosses": ["The Risen Witch", "The Witch", "Twisted Soul of the Swamp", "Twisted Treant"],
-    "zones": ["SunkenSwamplands Day", "SunkenSwamplands Night"]
+    "zones": ["Sunken Swamplands Day", "Sunken Swamplands Night"]
   },
   {
     "name": "Tribal Guardian",
@@ -1674,7 +1674,7 @@ const items = [
     "attributes": {},
     "effects": ["Resist Cold 15%", "Resist Fire 15%", "Resist Lightning 15%"],
     "bosses": ["Avatar of Xotec"],
-    "zones": ["EmeraldJungle Night", "WaterTempleRuins Day", "EmeraldJungle Day", "WaterTempleRuins Night"]
+    "zones": ["Emerald Jungle Night", "Water Temple Ruins Day", "Emerald Jungle Day", "Water Temple Ruins Night"]
   },
   {
     "name": "Westarch Defender",
@@ -1690,7 +1690,7 @@ const items = [
       "10% chance to cast Level [level value] {SKL=Howl} when struck."
     ],
     "bosses": ["Hodr, the Frost Giant"],
-    "zones": ["FrostwroughtMountain Night", "FrostwroughtMountain Day"]
+    "zones": ["Frostwrought Mountain Night", "Frostwrought Mountain Day"]
   },
   //
   // Chest
@@ -1717,7 +1717,7 @@ const items = [
     attributes: { Might: "{10, 76}" },
     effects: [],
     bosses: ["Herald of the Abyss", "Unchained Efreet"],
-    zones: ["WyrmrestDesert Night", "CastleGloom Night", "SunkenSwamplands Night", "SunkenSwamplands Day", "CastleGloom Day", "WyrmrestDesert Day"]
+    zones: ["Wyrmrest Desert Night", "Castle Gloom Night", "Sunken Swamplands Night", "Sunken Swamplands Day", "Castle Gloom Day", "Wyrmrest Desert Day"]
   },
   {
     name: "Black Belt",
@@ -1729,7 +1729,7 @@ const items = [
     attributes: { Reflex: "{10, 76}" },
     effects: [],
     bosses: ["The Grandmaster"],
-    zones: ["FrostwroughtMountain Night", "FrostwroughtMountain Day"]
+    zones: ["Frostwrought Mountain Night", "Frostwrought Mountain Day"]
   },
   {
     name: "Bone Jester Jacket",
@@ -1741,7 +1741,7 @@ const items = [
     attributes: { Vitality: "{2, 11}", Reflex: "{3, 22}" },
     effects: ["Dodge Counter Damage {10,50}%"],
     bosses: ["Samara the Vampire", "The Duke", "The Jester"],
-    zones: ["CastleGloom Day", "SunkenSwamplands Day", "CastleGloom Night", "SunkenSwamplands Night"]
+    zones: ["Castle Gloom Day", "Sunken Swamplands Day", "Castle Gloom Night", "Sunken Swamplands Night"]
   },
   {
     name: "Dead One's Robes",
@@ -1753,7 +1753,7 @@ const items = [
     attributes: { Vitality: "{2, 11}", Intelligence: "{2, 11}" },
     effects: ["Summon Resistance 10%", "Summon Damage {5,30}%", "Summon Health {5,30}%", "Summon Level Bonus 3"],
     bosses: ["The Dusk King"],
-    zones: ["FrostwroughtMountain Night", "FrostwroughtMountain Day"]
+    zones: ["Frostwrought Mountain Night", "Frostwrought Mountain Day"]
   },
   {
     name: "Emperor's Cuirass",
@@ -1777,7 +1777,7 @@ const items = [
     attributes: { Intelligence: "{10, 76}" },
     effects: [],
     bosses: ["Tlaloc the Storm"],
-    zones: ["EmeraldJungle Night", "WaterTempleRuins Day", "EmeraldJungle Day", "WaterTempleRuins Night"]
+    zones: ["Emerald Jungle Night", "Water Temple Ruins Day", "Emerald Jungle Day", "Water Temple Ruins Night"]
   },
   {
     name: "Fallen Cleric Robes",
@@ -1789,7 +1789,7 @@ const items = [
     attributes: { Might: "{3, 17}", Intelligence: "{3, 17}" },
     effects: ["Damage and Healing {5,25}%", "Resist Divine 15%", "10% chance on hit to cast Level [level value] {SKL=Consumption}"],
     bosses: ["The Countess"],
-    zones: ["CastleGloom Day", "CastleGloom Night"]
+    zones: ["Castle Gloom Day", "Castle Gloom Night"]
   },
   {
     name: "Flame Vestments",
@@ -1825,7 +1825,7 @@ const items = [
     attributes: { Might: "{2, 11}", Vitality: "{2, 11}", Intelligence: "{3, 22}" },
     effects: ["Cold Damage {7,35}%", "Resist Cold 15%", "Gain Level [level value] {SKL=Enchant Cold}."],
     bosses: ["Hodr, the Frost Giant"],
-    zones: ["FrostwroughtMountain Night", "FrostwroughtMountain Day"]
+    zones: ["Frostwrought Mountain Night", "Frostwrought Mountain Day"]
   },
   {
     name: "Golden Valkyrie Plate",
@@ -1837,7 +1837,7 @@ const items = [
     attributes: { Might: "{2, 11}", Dexterity: "{2, 11}" },
     effects: ["Skill Range 3", "Resist Physical 10%", "Resist Divine 10%", "Basic attacks have a 25% chance to proc an additional attack once per turn."],
     bosses: ["Valkyrie Commander"],
-    zones: ["FrostwroughtMountain Night", "FrostwroughtMountain Day", "WaterTempleRuins Day", "WaterTempleRuins Night"]
+    zones: ["Frostwrought Mountain Night", "Frostwrought Mountain Day", "Water Temple Ruins Day", "Water Temple Ruins Night"]
   },
   {
     name: "Grandmaster's Gi",
@@ -1849,7 +1849,7 @@ const items = [
     attributes: {},
     effects: ["Physical Damage {1, 22}", "Cold Damage {1, 22}", "Fire Damage {1, 22}", "Lightning Damage {1, 22}", "Healing Given {1, 22}", "Shadow Damage {1, 22}"],
     bosses: ["The Grandmaster"],
-    zones: ["FrostwroughtMountain Night", "FrostwroughtMountain Day"]
+    zones: ["Frostwrought Mountain Night", "Frostwrought Mountain Day"]
   },
   {
     name: "Inner Strength",
@@ -1861,7 +1861,7 @@ const items = [
     attributes: { Might: "{7, 54}", MaxHealth: "{21, 162}" },
     effects: [],
     bosses: ["Forest Giant"],
-    zones: ["FreewindForest Day", "FreewindForest Night"]
+    zones: ["Freewind Forest Day", "Freewind Forest Night"]
   },
   {
     name: "Iron Thorn Cuirass",
@@ -1885,7 +1885,7 @@ const items = [
     attributes: { Might: "{5, 33}", Vitality: "{3, 17}" },
     effects: ["Health Per Turn {7, 140}", "Resist Cold 15%", "Resist Fire 15%", "Resist Lightning 15%", "Resist Physical 15%", "Resist Divine 15%"],
     bosses: ["Black Dragon", "Blue Dragon", "Green Dragon", "Red Dragon"],
-    zones: ["FrostwroughtMountain Night", "CastleGloom Night", "FreewindForest Day", "Emberlands Day", "FrostwroughtMountain Day", "FreewindForest Night", "CastleGloom Day", "Emberlands Night"]
+    zones: ["Frostwrought Mountain Night", "Castle Gloom Night", "Freewind Forest Day", "Emberlands Day", "Frostwrought Mountain Day", "Freewind Forest Night", "Castle Gloom Day", "Emberlands Night"]
   },
   {
     name: "Night Stalker Leathers",
@@ -1897,7 +1897,7 @@ const items = [
     attributes: { Dexterity: "{7, 54}", Reflex: "{3, 22}" },
     effects: ["20% chance to cast Stealth on turn start."],
     bosses: ["The Duke"],
-    zones: ["CastleGloom Day", "CastleGloom Night"]
+    zones: ["Castle Gloom Day", "Castle Gloom Night"]
   },
   {
     name: "Ninja Gear",
@@ -1909,7 +1909,7 @@ const items = [
     attributes: { Dexterity: "{10, 76}" },
     effects: [],
     bosses: ["The Grandmaster"],
-    zones: ["FrostwroughtMountain Night", "FrostwroughtMountain Day"]
+    zones: ["Frostwrought Mountain Night", "Frostwrought Mountain Day"]
   },
   {
     name: "Resolve",
@@ -1921,7 +1921,7 @@ const items = [
     attributes: { Vitality: "{10, 76}" },
     effects: [],
     bosses: ["Olgoi, Devourer of Treasure"],
-    zones: ["DwarvenHalls Day", "DwarvenHalls Night"]
+    zones: ["Dwarven Halls Day", "Dwarven Halls Night"]
   },
   {
     name: "Slayer Plate",
@@ -1933,7 +1933,7 @@ const items = [
     attributes: { Might: "{3, 17}", Vitality: "{3, 17}" },
     effects: ["Physical Damage {6,30}%", "% Life Steal 3"],
     bosses: ["The Baron"],
-    zones: ["CastleGloom Day", "CastleGloom Night"]
+    zones: ["Castle Gloom Day", "Castle Gloom Night"]
   },
   {
     name: "Thunder Robes",
@@ -1945,7 +1945,7 @@ const items = [
     attributes: { Dexterity: "{3, 22}", Vitality: "{2, 11}", Intelligence: "{2, 11}" },
     effects: ["Lightning Damage {7,35}%", "Resist Lightning 15%", "Gain Level [level value] {SKL=Enchant Lightning}."],
     bosses: ["Tlaloc the Storm"],
-    zones: ["EmeraldJungle Night", "WaterTempleRuins Day", "EmeraldJungle Day", "WaterTempleRuins Night"]
+    zones: ["Emerald Jungle Night", "Water Temple Ruins Day", "Emerald Jungle Day", "Water Temple Ruins Night"]
   },
   {
     name: "Warlord Mantle",
@@ -1957,7 +1957,7 @@ const items = [
     attributes: { Might: "{2, 11}", Vitality: "{2, 11}", Reflex: "{2, 11}" },
     effects: ["Physical Damage {1, 28}", "Resist Cold 15%"],
     bosses: ["Hod", "Lagertha", "Ragnar"],
-    zones: ["FrostwroughtMountain Night", "FrostwroughtMountain Day"]
+    zones: ["Frostwrought Mountain Night", "Frostwrought Mountain Day"]
   },
   {
     name: "Will to Survive",
@@ -1969,7 +1969,7 @@ const items = [
     attributes: { Might: "{3, 22}", MaxHealth: "{21, 162}" },
     effects: ["Armor Source[\"Might\"] * 2f", "Magic Armor Source[\"Might\"] * 2f", "Gain Armor and Magic Armor equal to 2x your Might", "10% chance upon getting hit to cast Level [level value] {SKL=Pain Suppression}."],
     bosses: ["Councilor Jahsun"],
-    zones: ["EmeraldJungle Night", "EmeraldJungle Day"]
+    zones: ["Emerald Jungle Night", "Emerald Jungle Day"]
   },
   //
   // Rings
@@ -1984,7 +1984,7 @@ const items = [
     attributes: {},
     effects: ["Damage and Healing {10,50}%", "Resist Physical -10%", "Resist Cold -10%", "Resist Fire -10%", "Resist Lightning -10%"],
     bosses: ["Herald of the Abyss"],
-    zones: ["CastleGloom Day", "SunkenSwamplands Day", "CastleGloom Night", "SunkenSwamplands Night"]
+    zones: ["Castle Gloom Day", "Sunken Swamplands Day", "Castle Gloom Night", "Sunken Swamplands Night"]
   },
   {
     name: "Adamant Band",
@@ -1996,7 +1996,7 @@ const items = [
     attributes: { Might: "{2, 11}", Vitality: "{2, 11}" },
     effects: ["Damage Reduction 5%", "Resist Fire 15%"],
     bosses: ["Lord Infernicus", "The Forgemaster", "Nagomahu"],
-    zones: ["Emberlands Day", "WyrmrestDesert Day", "WyrmrestDesert Night", "Emberlands Night"]
+    zones: ["Emberlands Day", "Wyrmrest Desert Day", "Wyrmrest Desert Night", "Emberlands Night"]
   },
   {
     name: "Band of Blades",
@@ -2008,7 +2008,7 @@ const items = [
     attributes: { Vitality: "{3, 22}" },
     effects: ["Return Damage Physical Source[\"Armor\"] * .02f", "Resist Physical 15%", "Gain Added Return Damage Physical equal to 2% of your Armor."],
     bosses: ["Dwarven Warmachine"],
-    zones: ["DwarvenHalls Day", "DwarvenHalls Night"]
+    zones: ["Dwarven Halls Day", "Dwarven Halls Night"]
   },
   {
     name: "Band of Freedom",
@@ -2020,7 +2020,7 @@ const items = [
     attributes: { Dexterity: "{2, 11}", Reflex: "{2, 11}" },
     effects: ["Rooted Immunity 1", "Opportunity Attack Immunity 1", "Chilled Immunity 1", "Movement Points 2"],
     bosses: ["The Butcher"],
-    zones: ["CastleGloom Day", "SunkenSwamplands Day", "CastleGloom Night", "SunkenSwamplands Night"]
+    zones: ["Castle Gloom Day", "Sunken Swamplands Day", "Castle Gloom Night", "Sunken Swamplands Night"]
   },
   {
     name: "Black Dragon Scale",
@@ -2032,7 +2032,7 @@ const items = [
     attributes: { Vitality: "{2, 11}" },
     effects: ["Return Damage Shadow {3, 56}", "Health Per Turn {7, 140}", "Resist Divine 15%"],
     bosses: ["Black Dragon"],
-    zones: ["CastleGloom Day", "CastleGloom Night"]
+    zones: ["Castle Gloom Day", "Castle Gloom Night"]
   },
   {
     name: "Bleeding Band",
@@ -2044,7 +2044,7 @@ const items = [
     attributes: { Might: "{2, 10}", Vitality: "{2, 10}" },
     effects: ["Weapon attacks apply 1 stack of bleeding."],
     bosses: ["Anthulk", "The Minotaur"],
-    zones: ["ForgottenMines Night", "ForgottenMines Day"]
+    zones: ["Forgotten Mines Night", "Forgotten Mines Day"]
   },
   {
     name: "Blue Dragon Scale",
@@ -2056,7 +2056,7 @@ const items = [
     attributes: { Intelligence: "{2, 11}" },
     effects: ["Return Damage Cold {3, 56}", "Health Per Turn {7, 140}", "Resist Cold 15%"],
     bosses: ["Blue Dragon"],
-    zones: ["FrostwroughtMountain Night", "FrostwroughtMountain Day"]
+    zones: ["Frostwrought Mountain Night", "Frostwrought Mountain Day"]
   },
   {
     name: "Claw of Kuvonn",
@@ -2068,7 +2068,7 @@ const items = [
     attributes: {},
     effects: ["Summon Resistance 10%", "Summon Damage {5,20}%", "Summon Health {5,20}%", "Summon Level Bonus 3", "Summon Limit 1", "All creatures you summon have Ghost Armor applied."],
     bosses: ["Black Dragon", "The Dead One"],
-    zones: ["CastleGloom Day", "SunkenSwamplands Day", "CastleGloom Night", "SunkenSwamplands Night"]
+    zones: ["Castle Gloom Day", "Sunken Swamplands Day", "Castle Gloom Night", "Sunken Swamplands Night"]
   },
   {
     name: "Dark Steel Ring",
@@ -2092,7 +2092,7 @@ const items = [
     attributes: { Vitality: "{3, 20}" },
     effects: ["Cold Damage {1, 21}", "Fire Damage {1, 21}", "Lightning Damage {1, 21}"],
     bosses: ["Crystal Golem"],
-    zones: ["ForgottenMines Night", "ForgottenMines Day"]
+    zones: ["Forgotten Mines Night", "Forgotten Mines Day"]
   },
   {
     name: "Emberstone Ring",
@@ -2104,7 +2104,7 @@ const items = [
     attributes: { Might: "{2, 11}" },
     effects: ["Fire Damage {8,40}%", "Resist Fire 15%"],
     bosses: ["Dwarven Warmachine", "Red Dragon"],
-    zones: ["Emberlands Day", "DwarvenHalls Day", "DwarvenHalls Night", "Emberlands Night"]
+    zones: ["Emberlands Day", "Dwarven Halls Day", "Dwarven Halls Night", "Emberlands Night"]
   },
   {
     name: "Ethereal Loop",
@@ -2116,7 +2116,7 @@ const items = [
     attributes: { Reflex: "{6, 43}" },
     effects: [],
     bosses: ["Herald of the Abyss"],
-    zones: ["CastleGloom Day", "SunkenSwamplands Day", "CastleGloom Night", "SunkenSwamplands Night"]
+    zones: ["Castle Gloom Day", "Sunken Swamplands Day", "Castle Gloom Night", "Sunken Swamplands Night"]
   },
   {
     name: "Gladiator's Mark",
@@ -2140,7 +2140,7 @@ const items = [
     attributes: { Dexterity: "{2, 11}" },
     effects: ["Return Damage Lightning {3, 56}", "Health Per Turn {7, 140}", "Resist Lightning 15%"],
     bosses: ["Green Dragon"],
-    zones: ["FreewindForest Day", "FreewindForest Night"]
+    zones: ["Freewind Forest Day", "Freewind Forest Night"]
   },
   {
     name: "Hailstone Ring",
@@ -2152,7 +2152,7 @@ const items = [
     attributes: { Intelligence: "{2, 11}" },
     effects: ["Cold Damage {8,40}%", "Resist Cold 15%"],
     bosses: ["Blue Dragon"],
-    zones: ["FrostwroughtMountain Night", "FrostwroughtMountain Day"]
+    zones: ["Frostwrought Mountain Night", "Frostwrought Mountain Day"]
   },
   {
     name: "Heart Signet",
@@ -2164,7 +2164,7 @@ const items = [
     attributes: { Vitality: "{6, 43}" },
     effects: [],
     bosses: ["Ursa"],
-    zones: ["FreewindForest Day", "FreewindForest Night"]
+    zones: ["Freewind Forest Day", "Freewind Forest Night"]
   },
   {
     name: "Iron Fortress Band",
@@ -2176,7 +2176,7 @@ const items = [
     attributes: {},
     effects: ["Resist Physical 15%", "Resist Cold 15%", "Resist Fire 15%", "Resist Lightning 15%", "Resist Divine 15%"],
     bosses: ["The Gobfather", "The Pale Goblin"],
-    zones: ["WyrmrestDesert Day", "WyrmrestDesert Night", "DwarvenHalls Day", "DwarvenHalls Night"]
+    zones: ["Wyrmrest Desert Day", "Wyrmrest Desert Night", "Dwarven Halls Day", "Dwarven Halls Night"]
   },
   {
     name: "King's Signet",
@@ -2188,7 +2188,7 @@ const items = [
     attributes: { Might: "{2, 10}", Dexterity: "{2, 10}", Vitality: "{2, 10}", Intelligence: "{2, 10}", Reflex: "{2, 10}" },
     effects: [],
     bosses: ["The Dusk King"],
-    zones: ["FrostwroughtMountain Night", "FrostwroughtMountain Day"]
+    zones: ["Frostwrought Mountain Night", "Frostwrought Mountain Day"]
   },
   {
     name: "Living Band",
@@ -2200,7 +2200,7 @@ const items = [
     attributes: { Might: "{2, 10}", Vitality: "{2, 10}" },
     effects: ["Health Per Turn {9, 182}", "Resist Fire -25%"],
     bosses: ["Ursa", "Burning Treant", "Forest Giant", "Forest Keeper", "Forest Treant", "Forest Watcher", "Frozen Treant", "Trial of Honor"],
-    zones: ["FrostwroughtMountain Night", "FreewindForest Day", "Emberlands Day", "FrostwroughtMountain Day", "FreewindForest Night", "Emberlands Night"]
+    zones: ["Frostwrought Mountain Night", "Freewind Forest Day", "Emberlands Day", "Frostwrought Mountain Day", "Freewind Forest Night", "Emberlands Night"]
   },
   {
     name: "Mark of Nobility",
@@ -2284,7 +2284,7 @@ const items = [
     attributes: { Dexterity: "{2, 10}", Reflex: "{2, 10}" },
     effects: ["Movement Points 2", "Resist Lightning 10%"],
     bosses: ["Blood Mask Boss"],
-    zones: ["FreewindForest Day", "FreewindForest Night"]
+    zones: ["Freewind Forest Day", "Freewind Forest Night"]
   },
   {
     name: "Ring of Brilliance",
@@ -2296,7 +2296,7 @@ const items = [
     attributes: { Intelligence: "{6, 43}" },
     effects: [],
     bosses: ["Crystal Golem"],
-    zones: ["ForgottenMines Night", "ForgottenMines Day"]
+    zones: ["Forgotten Mines Night", "Forgotten Mines Day"]
   },
   {
     name: "Ring of Cunning",
@@ -2308,7 +2308,7 @@ const items = [
     attributes: { Dexterity: "{6, 43}" },
     effects: [],
     bosses: ["Ronin"],
-    zones: ["FrostwroughtMountain Night", "FrostwroughtMountain Day"]
+    zones: ["Frostwrought Mountain Night", "Frostwrought Mountain Day"]
   },
   {
     name: "Ring of Haste",
@@ -2320,7 +2320,7 @@ const items = [
     attributes: { Dexterity: "{2, 10}" },
     effects: [],
     bosses: ["The Sun Queen"],
-    zones: ["WyrmrestDesert Day", "WyrmrestDesert Night"]
+    zones: ["Wyrmrest Desert Day", "Wyrmrest Desert Night"]
   },
   {
     name: "Ring of Power",
@@ -2356,7 +2356,7 @@ const items = [
     attributes: { Might: "{3, 22}", Intelligence: "{3, 22}" },
     effects: ["Resist Divine 15%", "10% chance to cast Level [level value] {SKL=Blinding Light} when hitting with any ability."],
     bosses: ["Avatar of Xotec"],
-    zones: ["EmeraldJungle Night", "WaterTempleRuins Day", "EmeraldJungle Day", "WaterTempleRuins Night"]
+    zones: ["Emerald Jungle Night", "Water Temple Ruins Day", "Emerald Jungle Day", "Water Temple Ruins Night"]
   },
   {
     name: "Thief's Ring",
@@ -2368,7 +2368,7 @@ const items = [
     attributes: { Dexterity: "{2, 10}" },
     effects: [],
     bosses: ["Samara the Vampire", "The Duke", "Thief"],
-    zones: ["CastleGloom Day", "EmeraldJungle Day", "CastleGloom Night", "EmeraldJungle Night"]
+    zones: ["Castle Gloom Day", "Emerald Jungle Day", "Castle Gloom Night", "Emerald Jungle Night"]
   },
   {
     name: "Thunderstone Ring",
@@ -2380,7 +2380,7 @@ const items = [
     attributes: { Dexterity: "{2, 11}" },
     effects: ["Lightning Damage {8,40}%", "Resist Lightning 15%"],
     bosses: ["Ragnar", "Green Dragon"],
-    zones: ["FreewindForest Day", "FrostwroughtMountain Night", "FrostwroughtMountain Day", "FreewindForest Night"]
+    zones: ["Freewind Forest Day", "Frostwrought Mountain Night", "Frostwrought Mountain Day", "Freewind Forest Night"]
   },
   {
     name: "Titanium Band",
@@ -2407,7 +2407,7 @@ const items = [
     attributes: { Might: "{2, 11}" },
     effects: ["Damage and Healing {10,50}%", "Resist Physical -10%", "Resist Cold -10%", "Resist Fire -10%", "Resist Lightning -10%"],
     bosses: ["Admiral Blackbeard", "The Dead One", "The Prospector"],
-    zones: ["WaterTempleRuins Night", "CastleGloom Night", "WaterTempleRuins Day", "SunkenSwamplands Night", "ForgottenMines Night", "SunkenSwamplands Day", "CastleGloom Day", "ForgottenMines Day"]
+    zones: ["Water Temple Ruins Night", "Castle Gloom Night", "Water Temple Ruins Day", "Sunken Swamplands Night", "Forgotten Mines Night", "Sunken Swamplands Day", "Castle Gloom Day", "Forgotten Mines Day"]
   },
   {
     name: "Adamant Chain",
@@ -2419,7 +2419,7 @@ const items = [
     attributes: { Might: "{2, 11}", Vitality: "{2, 11}" },
     effects: ["Damage Reduction 5%", "Resist Fire 15%"],
     bosses: ["Dwarven Warmachine"],
-    zones: ["DwarvenHalls Day", "DwarvenHalls Night"]
+    zones: ["Dwarven Halls Day", "Dwarven Halls Night"]
   },
   {
     name: "Amulet of Alacrity",
@@ -2443,7 +2443,7 @@ const items = [
     attributes: { Intelligence: "{6, 43}" },
     effects: [],
     bosses: ["The Sun Queen"],
-    zones: ["WyrmrestDesert Day", "WyrmrestDesert Night"]
+    zones: ["Wyrmrest Desert Day", "Wyrmrest Desert Night"]
   },
   {
     name: "Amulet of Power",
@@ -2455,7 +2455,7 @@ const items = [
     attributes: { Might: "{6, 43}" },
     effects: [],
     bosses: ["Lord Infernicus", "The Forgemaster", "Nagomahu"],
-    zones: ["Emberlands Day", "WyrmrestDesert Day", "WyrmrestDesert Night", "Emberlands Night"]
+    zones: ["Emberlands Day", "Wyrmrest Desert Day", "Wyrmrest Desert Night", "Emberlands Night"]
   },
   {
     name: "Amulet of Vision",
@@ -2467,7 +2467,7 @@ const items = [
     attributes: { Might: "{2, 10}", Dexterity: "{2, 10}" },
     effects: ["Skill Range 2", "Blind Immunity 1"],
     bosses: ["The Sun Queen"],
-    zones: ["WyrmrestDesert Day", "WyrmrestDesert Night"]
+    zones: ["Wyrmrest Desert Day", "Wyrmrest Desert Night"]
   },
   {
     name: "Black Dragon Eye",
@@ -2479,7 +2479,7 @@ const items = [
     attributes: { Vitality: "{2, 11}" },
     effects: ["Shadow Damage {2, 42}", "Resist Divine 15%"],
     bosses: ["Black Dragon"],
-    zones: ["CastleGloom Day", "CastleGloom Night"]
+    zones: ["Castle Gloom Day", "Castle Gloom Night"]
   },
   {
     name: "Blue Dragon Eye",
@@ -2491,7 +2491,7 @@ const items = [
     attributes: { Vitality: "{2, 11}" },
     effects: ["Cold Damage {2, 42}", "Resist Cold 15%"],
     bosses: ["Blue Dragon"],
-    zones: ["FrostwroughtMountain Night", "FrostwroughtMountain Day"]
+    zones: ["Frostwrought Mountain Night", "Frostwrought Mountain Day"]
   },
   {
     name: "Contender's Chain",
@@ -2515,7 +2515,7 @@ const items = [
     attributes: { Might: "{2, 10}" },
     effects: ["Physical Damage {5,25}%", "Resist Divine 8%"],
     bosses: ["Herald of the Abyss"],
-    zones: ["CastleGloom Day", "SunkenSwamplands Day", "CastleGloom Night", "SunkenSwamplands Night"]
+    zones: ["Castle Gloom Day", "Sunken Swamplands Day", "Castle Gloom Night", "Sunken Swamplands Night"]
   },
   {
     name: "Dead One's Phylactery",
@@ -2527,7 +2527,7 @@ const items = [
     attributes: {},
     effects: ["Summon Resistance -20%", "Summon Damage {5,20}%", "Summon Health {5,20}%", "Summon Level Bonus 3", "Summon Limit 1", "Grants the passive skill {SKL=Lich Lord}"],
     bosses: ["The Dead One", "The Risen Witch"],
-    zones: ["CastleGloom Day", "SunkenSwamplands Day", "CastleGloom Night", "SunkenSwamplands Night"]
+    zones: ["Castle Gloom Day", "Sunken Swamplands Day", "Castle Gloom Night", "Sunken Swamplands Night"]
   },
   {
     name: "Dragon's Blood Amulet",
@@ -2539,7 +2539,7 @@ const items = [
     attributes: {},
     effects: ["Health Per Turn {7, 140}", "Resist Fire 15%", "Resist Cold 15%", "Resist Lightning 15%"],
     bosses: ["Black Dragon", "Blue Dragon", "Green Dragon", "Red Dragon"],
-    zones: ["FrostwroughtMountain Night", "CastleGloom Night", "FreewindForest Day", "Emberlands Day", "FrostwroughtMountain Day", "FreewindForest Night", "CastleGloom Day", "Emberlands Night"]
+    zones: ["Frostwrought Mountain Night", "Castle Gloom Night", "Freewind Forest Day", "Emberlands Day", "Frostwrought Mountain Day", "Freewind Forest Night", "Castle Gloom Day", "Emberlands Night"]
   },
   {
     name: "Drake Eye Pendant",
@@ -2563,7 +2563,7 @@ const items = [
     attributes: { Vitality: "{6, 43}" },
     effects: [],
     bosses: ["Avatar of Xotec", "Medusa"],
-    zones: ["EmeraldJungle Night", "WaterTempleRuins Day", "EmeraldJungle Day", "WaterTempleRuins Night"]
+    zones: ["Emerald Jungle Night", "Water Temple Ruins Day", "Emerald Jungle Day", "Water Temple Ruins Night"]
   },
   {
     name: "Elemental Chain",
@@ -2587,7 +2587,7 @@ const items = [
     attributes: { Reflex: "{6, 43}" },
     effects: [],
     bosses: ["Herald of the Abyss"],
-    zones: ["CastleGloom Day", "SunkenSwamplands Day", "CastleGloom Night", "SunkenSwamplands Night"]
+    zones: ["Castle Gloom Day", "Sunken Swamplands Day", "Castle Gloom Night", "Sunken Swamplands Night"]
   },
   {
     name: "Green Dragon Eye",
@@ -2599,7 +2599,7 @@ const items = [
     attributes: { Dexterity: "{2, 11}" },
     effects: ["Lightning Damage {2, 42}", "Resist Lightning 15%"],
     bosses: ["Green Dragon"],
-    zones: ["FreewindForest Day", "FreewindForest Night"]
+    zones: ["Freewind Forest Day", "Freewind Forest Night"]
   },
   {
     name: "Martyr's Chain",
@@ -2635,7 +2635,7 @@ const items = [
     attributes: { Might: "{2, 10}", Intelligence: "{2, 10}" },
     effects: ["increased power for mana use {8,40}%", "Mana Costs {4,20}%"],
     bosses: ["Crystal Golem"],
-    zones: ["ForgottenMines Night", "ForgottenMines Day"]
+    zones: ["Forgotten Mines Night", "Forgotten Mines Day"]
   },
   {
     name: "Pendant of Cunning",
@@ -2647,7 +2647,7 @@ const items = [
     attributes: { Dexterity: "{6, 43}" },
     effects: [],
     bosses: ["The Duke"],
-    zones: ["CastleGloom Day", "CastleGloom Night"]
+    zones: ["Castle Gloom Day", "Castle Gloom Night"]
   },
   {
     name: "Razor Wire",
@@ -2659,7 +2659,7 @@ const items = [
     attributes: { Vitality: "{3, 22}" },
     effects: ["Return Damage Physical Source[\"Armor\"] * .02f", "Resist Physical 15%", "Gain Added Return Damage Physical equal to 2% of your Armor."],
     bosses: ["The Risen Witch", "The Witch", "Twisted Soul of the Swamp"],
-    zones: ["SunkenSwamplands Day", "SunkenSwamplands Night"]
+    zones: ["Sunken Swamplands Day", "Sunken Swamplands Night"]
   },
   {
     name: "Red Dragon Eye",
@@ -2683,7 +2683,7 @@ const items = [
     attributes: { Might: "{3, 22}", Intelligence: "{3, 22}" },
     effects: ["Resist Divine 15%", "10% chance to cast Level [level value] {SKL=Blinding Light} when hitting with any ability."],
     bosses: ["The Sun Queen"],
-    zones: ["WyrmrestDesert Day", "WyrmrestDesert Night"]
+    zones: ["Wyrmrest Desert Day", "Wyrmrest Desert Night"]
   },
   {
     name: "Titanium Chain",
@@ -2719,7 +2719,7 @@ const items = [
     attributes: { Might: "{2, 11}", Vitality: "{2, 11}" },
     effects: ["Movement Points -2", "Grants the passive skill {SKL=Child of the Abyss}"],
     bosses: ["The Dead One"],
-    zones: ["CastleGloom Day", "SunkenSwamplands Day", "CastleGloom Night", "SunkenSwamplands Night"]
+    zones: ["Castle Gloom Day", "Sunken Swamplands Day", "Castle Gloom Night", "Sunken Swamplands Night"]
   }
 
 ];

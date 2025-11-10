@@ -48,7 +48,7 @@ body {
 .left .slot .item {
   margin-top: 6px;
   font-size: 14px;
-  color: #c0c0c0; /* default text color */
+  color: #c0c0c0;
 }
 
 /* Rarity colors for left column */
@@ -57,9 +57,73 @@ body {
 
 /* Middle Column */
 .middle {
-  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
+/* Top-half: slot buttons, search, item list */
+.middle .top-half,
+.middle .bottom-half {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  background: #111111;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.6);
+  padding: 14px;
+}
+
+.middle .top-half {
+  margin-bottom: 10px;
+}
+
+/* 2b bottom half styles (combined bosses/zones) */
+.middle .bottom-half {
+  background: #111111;
+}
+
+.middle .bottom-half h4 {
+  margin-top: 0;
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #d0d0d0;
+  text-align: center;
+  border-bottom: 1px solid #333333;
+  padding-bottom: 6px;
+}
+
+.middle .bottom-half .list-section {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.middle .bottom-half .list-section h5 {
+  font-size: 14px;
+  margin: 6px 0 4px;
+  color: #a0a0a0;
+  border-bottom: 1px solid #222222;
+  padding-bottom: 2px;
+}
+
+.middle .bottom-half ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.middle .bottom-half li {
+  background: #1a1a1a;
+  border: 1px solid #333333;
+  border-radius: 6px;
+  padding: 6px 8px;
+  font-size: 13px;
+}
+
+/* Top-half original contents */
 .middle #slot-buttons {
   display: flex;
   justify-content: space-between;
@@ -205,19 +269,19 @@ body {
 @media (max-width: 768px) {
   body {
     flex-direction: column;
-    align-items: center;        /* center panels horizontally */
+    align-items: center;
     justify-content: flex-start;
     gap: 12px;
     padding: 12px;
-    height: auto;               /* allow natural height */
-    width: 100%;                /* prevent horizontal scrolling */
-    overflow-x: hidden;         /* remove side scroll */
+    height: auto;
+    width: 100%;
+    overflow-x: hidden;
     box-sizing: border-box;
   }
 
   .panel {
     width: 100%;
-    max-width: 600px;           /* optional: limits width on large phones */
+    max-width: 600px;
     height: auto;
     padding: 12px;
   }
@@ -228,8 +292,15 @@ body {
   }
 
   .middle {
+    height: auto;
     max-height: none;
-    overflow: visible;
+  }
+
+  .middle .top-half,
+  .middle .bottom-half {
+    height: auto;
+    flex: none;
+    padding: 12px;
   }
 
   .middle #slot-buttons {
@@ -245,11 +316,9 @@ body {
   }
 }
 
-
-  /* reduce large gaps on very small screens */
-  @media (max-width: 420px) {
-    body { gap: 8px; padding: 10px; }
-    .panel { padding: 10px; border-radius: 10px; }
-    .middle #slot-buttons button { min-width: 70px; flex-basis: 45%; }
-  }
+/* reduce large gaps on very small screens */
+@media (max-width: 420px) {
+  body { gap: 8px; padding: 10px; }
+  .panel { padding: 10px; border-radius: 10px; }
+  .middle #slot-buttons button { min-width: 70px; flex-basis: 45%; }
 }
